@@ -1,5 +1,7 @@
 # Zip API
 
+[![Build Status](https://travis-ci.org/PJankowski/zip-api.svg?branch=master)](https://travis-ci.org/PJankowski/zip-api)
+
 This is a simple Express server that will return a Zip Code and corresponding Latitude and Longitude.
 
 Currently the API only holds United States Zip Codes but I plan to add more in the future.
