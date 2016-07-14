@@ -4,7 +4,7 @@ node_js:
 - '0.10'
 cache:
   directories:
-    - node_modules
+  - node_modules
 deploy:
   provider: heroku
   api_key:
@@ -12,3 +12,8 @@ deploy:
   app: zip-api
   on:
     repo: PJankowski/zip-api
+env:
+  global:
+    - NODE_ENV=production
+  matrix:
+    secure: fBpa5wm/PmtKanu/VOffWA4fX5GctiufisaeXP3xLhYuFj8Le1H22emL7plccRnXq72mW+tYkBoEki9ZSos8ewdSV6mswjOIJuK64SzE+24Z8Q6yRQrJ5jjwV3HyMWxVheKFaPc7gNJAiRQk/u+bDJsfxWsGB3UeCJZ+4FC/zq+C6HKhuho9rp4J1A1c4436987NY2jUQ4dNWJ5SD5E/0wDyefCJwGBjogo82ogC83IhPWDKgdCtkyV36x6utHzYdzmG8ljFDLkS4RhB0EIljxmt59v5dTUO+nUq5poPPxNffbgCQP5gvc6FmP26mo58xt4wMWcNErSHr6fKYyn13mR1jcNrjhfnYacnUTen6ZgPF/vn29gxMzLXlDqETK6cR0IljdkqzpxKVfk22yTQ4Zgw/yrRdOF2FzpCoeD9YjUhMwBopb0VWtFbcbEemVotf/HeXG/n4SWLqs3q8em/ieW+SAvaLDEYt9iqyNADwasAyQl3dOTnfxP26qFgINutwsrYbhkNgJP5xSNnAok/lxjmFTV0zDZ6OdgpYIO+r5xMmaygoGjxhsbnYzZplp1/XwUDZp6AS+yQbxdWbeaGy0sLltDT5Sy09IECMw41Vw4PyH7j/TPK+bWizwcnAqw/JuyRhpe8RCJ7VfYLXCWjnddVgG3U821l/CwKWOVE6oc=
