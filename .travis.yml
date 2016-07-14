@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: aOUbfDEIrG+P7jpD4keCyoTr0qDPlr1HrNh7Ge2ca1PEgkgkM1xRRnsmgY7WDjGMkXROAHksShtaTkZPjusey1eIY7hYMwsxP7mgyslz4xK/wrhrOtOh2jHF+g+JpK+mFbjHFaCAMnV1lKXSLz9jGfxbI1YsWk2tdLrLje4AiblfGXjz/WamPcsbt0BMz7++y+/1+elDaD7I84GADCmzDqKW02Od3BKn5DZoLGkClD3/puiTLava8ox93KFnhuxUMdG9Wl4vJzA5JzZZjI+LcExYiQszCqbXdIFz0k9HAwFRCo43z4LUgAdxQLy2/a4FFYtsL2PKERU4ku95UPe0rRQ9Tg3Oj0+5zBcxXOB2fSRRwsJxSnEkeW99gZdoyMauOaNq8M31uu9eBt91KMlEU4BgviQic5iZq8KN8YV744cWyTBrnh+5bZywPr68sNCf5wk9rsXAHKO8EbYlfJzkKfFp5D2JSKrkqtIKqV97J2yYKHqiWkfOJ1gBly7XHuvNvzSwVqbiQ7q6k4J1AFmB+kz6/Hm649zWO4Q8/reZmuFysCuzmHa3bbrS779BfR4VnHuieHPjddAB6liYcNR3fAuXZEnaIB2Jt1BMm/7qsak6jjw+EAYb7x+xPooImG6xt9tFOcDu9pQvfGouOqdIf3enJYAmRoURFTgPnDlZSSQ=
+  app: zip-api
+  on:
+    repo: PJankowski/zip-api
